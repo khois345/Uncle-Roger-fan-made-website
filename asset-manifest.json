@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CS2260_finalAssignment/static/css/main.74acce42.css",
+    "main.js": "/CS2260_finalAssignment/static/js/main.f194d37b.js",
+    "index.html": "/CS2260_finalAssignment/index.html",
+    "main.74acce42.css.map": "/CS2260_finalAssignment/static/css/main.74acce42.css.map",
+    "main.f194d37b.js.map": "/CS2260_finalAssignment/static/js/main.f194d37b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.74acce42.css",
+    "static/js/main.f194d37b.js"
+  ]
+}
