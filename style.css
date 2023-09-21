@@ -1,57 +1,52 @@
-/*  Khoi Tran
-    CS2250
-    Instructor Ethan Uong
-    HW2-Personal Website  */
-    
 /* -----------------Shared Styles-----------------*/
-body {  /* Requirement-2.A */
-    background-repeat: no-repeat;  /* Requirement-2.4 */
-    background-attachment: fixed;  /* Requirement-2.4 */
-    background-size: 100% 100%;    /* Requirement-2.4 */
+body {  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
 }
 
-footer {   /* Requirement-2.A */
-    padding: 10px 10px 0px 10px;  /* Requirement-2.6 */
-    bottom: 0;                    /* Requirement-2.6 */
-    width: 100%;                  /* Requirement-2.10 */
+footer {   
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
     text-align: center;
 }
 
-footer > p {  /* Requirement-2.F */
-    font-size: 20px;  /* Requirement-2.9 */
+footer > p {
+    font-size: 20px;
 }
 
-footer span {  /* Requirement-2.F */
-    font-size: 35px;  /* Requirement-2.9 */
+footer span {
+    font-size: 35px;
     font-weight: bold;
 }
 
-#white { /* Requirement-2.D */
-    color: whitesmoke;   /* Requirement-2.3 */
+#white {
+    color: whitesmoke;
 }
 
 a {
-    font-size: 20pt;  /* Requirement-2.9 */
+    font-size: 20pt;
 }
 
 a:link {
-    color: blue;    /* Requirement-2.3 */
+    color: blue;
 }
 
 a:hover {
-    color: red;     /* Requirement-2.3 */
+    color: red;
 }
 
 a:visited {
-    color: purple;  /* Requirement-2.3 */
+    color: purple;
 }
 
 a:active {
-    color: cyan;    /* Requirement-2.3 */
+    color: cyan;
 }
 
 #hidden {
-    visibility: hidden;  /* Requirement-2.16 */
+    visibility: hidden;
 }
 
 /* -----------------Main pages Unique Styles-----------------*/
@@ -62,7 +57,7 @@ h2, h3 {
 
 /* Note: Zooming the first character of the first word */
 span > span {
-    float: none;         /* Requirement-2.11 */
+    float: none;
     font-weight: bolder;
     font-size: 70px;
 }
@@ -71,140 +66,136 @@ p {
     font-size: 25pt;
 }
 
-p > span {  /* Requirement-2.F */
-    font-weight: bold;  /* Requirement-2.3 */
+p > span {
+    font-weight: bold;
 }
 
-table,td,th {  /* Requirement-2.B */
+table,td,th {
     width: 900px;
-    border: 1px solid black;  /* Requirement-2.5 */
+    border: 1px solid black;
 }
 
 table tr:first-child {
-    font-size: 25pt;  /* Requirement-2.1 */
+    font-size: 25pt;
 }
 
-table tr {  /* Requirement-2.F */
-    font-size: 20pt; /* Requirement-2.2 */
+table tr {
+    font-size: 20pt;
     height: 20px;
 }
 
-table td:first-child {   /* Requirement-2.E */
-    text-align: center;  /* Requirement-2.2 */
-    width :20%;          /* Requirement-2.7 */
+table td:first-child {
+    text-align: center;
+    width :20%;
 }
 
-details {  /* Requirement-2.G */
+details {
     float: none;
 }
 
-details summary {  /* Requirement-2.H */
+details summary {
     font-size: 25pt;
     font-weight: bold;
 }
 
 ul {
-    list-style-type: none;  /* Requirement-2.8 */
+    list-style-type: none;
 }
 
 div {
-    font-size: 22pt;     /* Requirement-2.1 */
-    margin-left: 100px;  /* Requirement-2.6 */
-    font-weight: bold;   /* Requirement-2.1 */
-    font-family: 'Times New Roman', Times, serif;  /* Requirement-2.1 */
+    font-size: 22pt;
+    margin-left: 100px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.moveimage {  /* Requirement-2.C */
-    margin-left: 275px;  /* Requirement-2.6 */
+.moveimage {
+    margin-left: 275px;
 }
 
 /* -----------------Sub Pages Unique Styles-----------------*/
-section.subPage {  /* Requirement-2.C */
+section.subPage {
     text-align: center;
 }
 
-section.subPage > h1 {  /* Requirement-2.F */ 
+section.subPage > h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 50pt;
     text-align: center;
 }
 
-section.subPage > h2 {  /* Requirement-2.F */
+section.subPage > h2 {
     color: white;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 50pt;
     text-align: center;
 }
 
-section.subPage > h4 {  /* Requirement-2.F */
+section.subPage > h4 {
     color: white;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 35pt;
     text-align: center;
 }
 
-section.subPage > p {  /* Requirement-2.F */
+section.subPage > p {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 28pt;
     text-align: center;
 }
 
-section.subPage > div {  /* Requirement-2.F */
+section.subPage > div {
     position: relative;
     margin-left: auto;
     margin-right: auto;
     width: 700px;
     height: 400px;
     background-color: white;
-    overflow-y: auto;  /* Requirement-2.14 */
+    overflow-y: auto;
 }
 
-figure > h3 {  /* Requirement-2.F */
+figure > h3 {
     color: white;
     font-family:Verdana, Geneva, Tahoma, sans-serif, Times, serif;
     font-weight: bold;
     font-size: 45pt;
 }
 
-.centerImage {  /* Requirement-2.C */
+.centerImage {
     display: block;
-    margin-left: auto;   /* Requirement-2.6 */
-    margin-right: auto;  /* Requirement-2.6 */
-    width: auto;         /* Requirement-2.7 */
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
 }
 
 /* Note: the center class is made to make images always stay in the middle */
-.centerVid {  /* Requirement-2.C */
-    display: block;      /* Requirement-2.12 */
-    margin-left: auto;   /* Requirement-2.6 */
-    margin-right: auto;  /* Requirement-2.6 */
+.centerVid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.left {  /* Requirement-2.C */
-    margin-left: 20%;  /* Requirement-2.10 */
-    float: left;
-  }
-  
-.right {  /* Requirement-2.C */
-    float: left;
-}
-  
-.middle {  /* Requirement-2.C */
+.left {
+    margin-left: 20%;
     float: left;
 }
 
-.clear {  /* Requirement-2.C */
-    clear: left;  /* Requirement-2.13 */
+.right {
+    float: left;
 }
 
-p.txtBehind {  /* Requirement-2.C */
-    position: absolute;  /* Requirement-2.15 */
+.middle {
+    float: left;
+}
+
+.clear {
+    clear: left;
+}
+
+p.txtBehind {
+    position: absolute;
     left: 120px;
     top: 380px;
-    z-index: -1;  /* Requirement-2.17 */
+    z-index: -1;
     color: orangered;
 }
-  
-
-
-
